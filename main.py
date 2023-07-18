@@ -12,15 +12,14 @@ from firebase_admin import firestore
 #db = firestore.client()
 
 
-st.set_page_config(page_title='CaseStudy', layout = 'wide', page_icon = "", initial_sidebar_state = 'auto')
+st.set_page_config(page_title='E-learning', layout = 'wide', page_icon = '📖', initial_sidebar_state = 'auto')
 hide_streamlit_style = """
-                <style>
-                #MainMenu {visibility: hidden;}
-                footer {visibility: hidden;}
-                </style>
-                """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-
 
 if True:
     def add_bg_from_url():
