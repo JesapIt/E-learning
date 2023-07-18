@@ -42,9 +42,10 @@ if True:
 
 st.markdown('''
     <div style="display: flex; width: 100%; height: 100vh; flex-direction: column; align-items: flex-start; ">
-        <h1 style="color: #F0F0F0;">Bentornat* _________ </h1>
+        <h1 style="color: #F0F0F0;">Bentornat* ______ </h1>
         <p style="margin-left: 0px;">
-            Questa è la tua piattaforma di e-learning, qui potrai trovare tutti i corsi Jesap disponibili.
+            Questa è la tua piattaforma di e-learning. <br>
+            Qui potrai trovare tutti i corsi Jesap disponibili.
         </p>
     </div>
 ''', unsafe_allow_html=True)
